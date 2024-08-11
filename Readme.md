@@ -8,4 +8,4 @@ At this point, it is simply stub code and is nowhere near playable.  There are n
 
 ## Storyline
 
-In the near future Earth, magic is rediscovered and a technomage accidentally opens a portal to a dimensional hellscape, releasing hordes of evil creatures into Earth. Concerned for the fate of humanity, he/she encloses the building that they are in inside an eldritch dimensional prison and vows to not break the spell until all the demonspawn have been eradicated. Armed with spells and firearms, the mage goes room to room, level by level to clear out the building and the surrounding areas.
+In the near future Earth, magic is rediscovered and a technomage accidentally opens a portal to a dimensional hellscape, releasing hordes of evil creatures into Earth. Concerned for the fate of humanity, he/she encloses the building that they are in inside an eldritch dimensional prison and vows to not break the spell until all the demonspawn have been eradicated. Armed with spells and firearms, the mage goes room to room, level by level to clear out the building and the surrounding areas in order to save Earth.
