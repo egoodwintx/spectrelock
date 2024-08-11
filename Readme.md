@@ -2,7 +2,7 @@
 
 ## Overview
 
-Spectre Lock is a retro style 2D Multidirectional Shooter in the style of _Robotron 2084_ written in C++. It uses the [https://smfl-dev.org/](SFML library) for graphics. It is written for Linux and FreeBSD.
+Spectre Lock is a retro style 2D Multidirectional Shooter in the style of _Robotron 2084_ written in C++. It uses the [(SFML library](https://smfl-dev.org/) for graphics. It is written for Linux and FreeBSD.
 
 At this point, it is simply stub code and is nowhere near playable.  There are no sprites, tiles or levels.
 
