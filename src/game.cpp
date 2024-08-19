@@ -6,6 +6,7 @@
 // description:
 //  Game Class
 //---------------------------------------------------------
+#include <iostream>
 #include "game.h"
 
 void Game::initVariables() {
@@ -49,6 +50,13 @@ void Game::pollEvents() {
 
 void Game::update() {
     this->pollEvents();
+    // relative to the screen
+    //std::cout << "Mouse pos: " << sf::Mouse::getPosition().x << " "
+    //    << sf::Mouse::getPosition().y << "\n";
+
+    // relative to the window
+    std::cout << "Mouse pos: " << sf::Mouse::getPosition(*this->window).x << " "
+        << sf::Mouse::getPosition(*this->window).y << "\n";
 }
 
 void Game::render() {
