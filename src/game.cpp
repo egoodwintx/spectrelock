@@ -16,6 +16,15 @@ void Game::initWindow() {
     this->vm = sf::VideoMode(800, 600, 64);
     this->window = new sf::RenderWindow(this->vm, 
         this->title, sf::Style::Default);
+    this->window->setFramerateLimit(144);
+}
+
+void Game::initEnemies() {
+    this->enemy.setPosition(sf::Vector2f(0.f,0.f));
+    this->enemy.setSize(sf::Vector2f(100.f, 100.f));
+    this->enemy.setFillColor(sf::Color::Cyan);
+    this->enemy.setOutlineColor(sf::Color::Green);
+    this->enemy.setOutlineThickness(1.f);
 }
 
 const bool Game::running() const {
@@ -45,7 +54,11 @@ void Game::render() {
     this->window->clear(sf::Color::Black);
 
     //Draw game objects
+    this->window->draw(this->enemy);
+
+    // Display objects
     this->window->display();
+
 }
 
 void Game::display() {
@@ -55,6 +68,7 @@ void Game::display() {
 Game::Game() {
     this->initVariables();
     this->initWindow();
+    this->initEnemies();
 }
 
 Game::~Game() {

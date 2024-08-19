@@ -24,8 +24,12 @@ class Game {
         sf::Event ev;
         sf::String title = "Spectre Lock";
 
+        // Game objects
+        sf::RectangleShape enemy;
+        
         void initVariables();
         void initWindow();
+        void initEnemies();
 
     public:
         Game();
