@@ -25,6 +25,7 @@ void Game::initEnemies() {
     this->enemy.setFillColor(sf::Color::Cyan);
     this->enemy.setOutlineColor(sf::Color::Green);
     this->enemy.setOutlineThickness(1.f);
+    this->enemy.setScale(sf::Vector2f(0.5f, 0.5f));
 }
 
 const bool Game::running() const {
