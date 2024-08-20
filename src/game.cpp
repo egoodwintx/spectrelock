@@ -48,6 +48,14 @@ void Game::pollEvents() {
     }   
 }
 
+void Game::updateMousePositions(){
+    /*
+    @ return void
+    updates mouse positions
+    */
+   this->mousepositions = sf::Mouse::getPosition(*this->window);
+}
+
 void Game::update() {
     this->pollEvents();
     // relative to the screen

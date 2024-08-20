@@ -24,9 +24,12 @@ class Game {
         sf::Event ev;
         sf::String title = "Spectre Lock";
 
+        // Mouse positions
+        sf::Vector2i mousepositions;
+
         // Game objects
         sf::RectangleShape enemy;
-        
+
         void initVariables();
         void initWindow();
         void initEnemies();
@@ -41,4 +44,5 @@ class Game {
         void render();
         void display();
         void pollEvents();
+        void updateMousePositions();
 };
